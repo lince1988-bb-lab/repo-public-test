@@ -1,0 +1,1 @@
+This file validates the final Mergify auto-merge flow.

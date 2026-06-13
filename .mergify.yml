@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: Automatic merge for lab PRs when CI passes
     conditions:
-      - check-success=Dummy CI
+      - check-success=Dummy CI / dummy-test
       - base=main
     actions:
       merge:

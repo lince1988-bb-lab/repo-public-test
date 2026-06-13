@@ -1,0 +1,1 @@
+This file validates that Mergify can automatically process a controlled PR.

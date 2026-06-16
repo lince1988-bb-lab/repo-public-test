@@ -1,0 +1,1 @@
+This file validates that Mergify can automatically merge a pull request after CI passes.

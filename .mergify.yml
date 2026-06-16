@@ -1,7 +1,8 @@
 pull_request_rules:
-  - name: Lab validation - merge PR without CI condition
+  - name: Lab validation - merge PR when CI passes
     conditions:
       - base=main
+      - check-success=dummy-test
     actions:
       merge:
         method: merge

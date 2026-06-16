@@ -1,0 +1,1 @@
+This file validates that Mergify can merge a pull request without a CI condition.

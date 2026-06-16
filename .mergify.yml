@@ -1,8 +1,7 @@
 pull_request_rules:
-  - name: Lab validation - comment on PR
+  - name: Lab validation - merge PR without CI condition
     conditions:
       - base=main
     actions:
-      comment:
-        message: |
-          Mergify lab validation: rule matched successfully.
+      merge:
+        method: merge

@@ -3,6 +3,7 @@ pull_request_rules:
     conditions:
       - base=main
       - check-success=dummy-test
+      - label=mv-004-required-label
     actions:
       merge:
         method: merge

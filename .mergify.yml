@@ -1,8 +1,8 @@
 pull_request_rules:
-  - name: Lab validation - merge PR when CI passes
+  - name: MV-007 validation - unknown action is rejected safely
     conditions:
       - base=main
       - check-success=dummy-test
     actions:
-      merge:
-        method: merge
+      this_action_does_not_exist:
+        enabled: true

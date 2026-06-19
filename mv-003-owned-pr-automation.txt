@@ -1,0 +1,3 @@
+MV-003 validation file.
+
+This file validates that Mergify acts only on a researcher-owned pull request in a researcher-owned repository.

@@ -1,8 +1,9 @@
 pull_request_rules:
-  - name: Lab validation - merge PR when CI passes
+  - name: MV-006 validation - unknown condition is rejected safely
     conditions:
       - base=main
       - check-success=dummy-test
+      - this-condition-does-not-exist=true
     actions:
       merge:
         method: merge
